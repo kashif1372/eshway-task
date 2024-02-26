@@ -3,7 +3,7 @@ import {useEffect} from 'react'
 // import {slideInLeft} from 'react-animations'
 import Aos  from 'aos'
 import 'aos/dist/aos.css'
-const Header = () => {
+export const Header = () => {
   
   
   useEffect(()=>{
@@ -43,5 +43,3 @@ const Header = () => {
    </section> 
   )
 }
-
-export default Header

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-const EshVision = () => {
+export const EshVision = () => {
   useEffect(()=>{
     Aos.init()
   },[])
@@ -21,4 +21,3 @@ const EshVision = () => {
   )
 }
 
-export default EshVision

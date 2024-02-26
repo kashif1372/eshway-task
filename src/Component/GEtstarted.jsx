@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-const GEtstarted = () => {
+export const GEtstarted = () => {
   useEffect(()=>{
     Aos.init();
   },[])
@@ -43,5 +43,3 @@ const GEtstarted = () => {
     </div>
   )
 }
-
-export default GEtstarted

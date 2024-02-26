@@ -3,7 +3,7 @@ import Aos from 'aos'
 import'aos/dist/aos.css'
 
 import { useEffect } from 'react'
-const AboutUS = () => {
+export const AboutUS = () => {
   useEffect(()=>{
 
     Aos.init()
@@ -23,4 +23,3 @@ const AboutUS = () => {
   )
 }
 
-export default AboutUS

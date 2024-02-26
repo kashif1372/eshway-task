@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import Aos from 'aos'
 import { GrMenu } from "react-icons/gr";
 import 'aos/dist/aos.css';
-const Navbar = () => {
+export const Navbar = () => {
 
 useEffect(()=>{
 Aos.init()
@@ -22,5 +22,3 @@ Aos.init()
     </div>
   )
 }
-
-export default Navbar

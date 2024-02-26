@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Services = () => {
+export const Services = () => {
   return (
     <div className='flex-wrap  flex justify-center gap-4 pt-[4.5rem]'>
       <div className='  flex flex-col justify-between items-center w-[370px]  px-[52px] py-[65px]  gap-[1.7rem]  rounded-xl  mx-[22px]    ' id='custom-gradient'>
@@ -18,5 +18,3 @@ const Services = () => {
     </div>
   )
 }
-
-export default Services

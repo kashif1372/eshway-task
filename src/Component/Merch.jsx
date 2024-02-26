@@ -2,7 +2,7 @@ import React from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
-const Merch = () => {
+export const Merch = () => {
 useEffect(()=>{
   Aos.init()
 },[])
@@ -43,5 +43,3 @@ Official Merchandise
     </div>
   )
 }
-
-export default Merch
