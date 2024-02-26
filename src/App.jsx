@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Navbar } from "./Component/Navbar";
-import { Header } from "./Component/header";
+import { Header } from "./Component/Header";
 import { AboutUS } from "./Component/AboutUS";
 import { Services } from "./Component/Services";
 import { GEtstarted } from "./Component/GEtstarted";
