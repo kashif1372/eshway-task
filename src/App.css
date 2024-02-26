@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* :root {
+  --tw-bg-opacity: 0.5; /* 50% opacity */
+
+
+/* In a separate CSS file or <style> tag */
+.custom-gradient {
+  background: linear-gradient(84deg, rgb(107 106 158) 0%, rgb(14 29 40) 47%);
+  /* Other styling properties */
+}
+#custom-gradient {
+  background: linear-gradient(130deg, rgb(27, 64, 65) 0%, rgb(42, 32, 40) 29%);
+  /* Other styling properties */
+}
+
+#custom-gradient:hover{
+  scale: 1.1;
+  transition: all 1s;
+}
+
+
+/* Define the animation */
+@keyframes rotate {
+  0% {
+    /* transform: translateX(0); */
+    transform: rotate(280deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply the animation to the element */
+#rotating-element {
+  
+  /* Other styles as needed */
+  animation: rotate 2s linear ; /* Animation name, duration, timing function, and iteration count */
+}
